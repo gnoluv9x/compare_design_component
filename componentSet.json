@@ -1,0 +1,38 @@
+{
+  "id": "123",
+  "name": "Example Component Set",
+  "componentKey": "example-component-set-key",
+  "componentProperties": {
+    "Show Trailing Icon": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Show Leading Icon": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Label": {
+      "type": "TEXT",
+      "defaultValue": "Button"
+    },
+    "Size": {
+      "type": "VARIANT",
+      "variantOptions": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "defaultValue": "Medium"
+    },
+    "Leading Icon": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "example-leading-icon-instance-id",
+      "preferredValues": []
+    },
+    "Trailing Icon": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "example-trailing-icon-instance-id",
+      "preferredValues": []
+    }
+  }
+}
